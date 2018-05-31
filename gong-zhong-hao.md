@@ -18,3 +18,9 @@
 
 ⑩AccessToken中控服务器：负责： 提供主动刷新和被动刷新机制来刷新accessToken并存储（为了防止并发刷新，注意加并发锁），提供给业务逻辑有效的accessToken。
 
+⑪收到粉丝消息后不想或者不能5秒内回复时，需回复“success”字符串
+
+⑫[ 在线测试的平台](http://mp.weixin.qq.com/debug/)
+
+⑬⑭⑮⑯⑰⑱⑲⑳
+
