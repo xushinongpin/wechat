@@ -1,7 +1,5 @@
 ①每个用户针对每个公众号会产生一个安全的OpenID
 
-
-
 ②在多公众号、移动应用之间做用户共通，则需前往微信开放平台 【 [https://open.weixin.qq.com/](https://open.weixin.qq.com/) 】，将这些公众号和应用绑定到一个开放平台账号下，绑定后，一个用户虽然对多个公众号和应用有多个不同的OpenID，但他对所有这些同一开放平台账号下的公众号和应用，只有一个UnionID，可以在用户管理-获取用户基本信息（UnionID机制）文档了解详情。
 
 1、引导用户进入授权页面同意授权，获取code
@@ -11,6 +9,8 @@
 3、如果需要，开发者可以刷新网页授权access\_token，避免过期
 
 4、通过网页授权access\_token和openid获取用户基本信息（支持UnionID机制）
+
+文档地址： https://mp.weixin.qq.com/wiki?t=resource/res\_main&id=mp1421140842
 
 
 
