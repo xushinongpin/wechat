@@ -10,9 +10,7 @@
 
 4、通过网页授权access\_token和openid获取用户基本信息（支持UnionID机制）
 
-文档地址： https://mp.weixin.qq.com/wiki?t=resource/res\_main&id=mp1421140842
-
-
+文档地址： [https://mp.weixin.qq.com/wiki?t=resource/res\_main&id=mp1421140842](https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421140842)
 
 ③每个接口都有每日接口调用频次限制，可以在公众平台官网-开发者中心处查看具体频次。
 
@@ -95,5 +93,7 @@ expires_in    凭证有效时间，单位：秒
 
 ⑱接口报警： 当微信服务器向开发者推送消息失败次数达到预定阈值时，会将报警消息发送到指定微信报警群中（设置方式：公众平台-&gt;开发-运维中心-&gt;接口报警）
 
-⑲⑳
+⑲微信网页开发样式库 https://mp.weixin.qq.com/wiki?t=resource/res\_main&id=mp1455784134
+
+⑳
 
